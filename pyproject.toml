@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spendguard"
+version = "0.1.0"
+authors = [
+  { name="Amir Tahani", email="amirthn653381@gmail.com" },
+]
+description = "High-precision token budget guard, floating-point spend tracking & latency circuit breakers for LLM applications (OpenAI, LiteLLM, Anthropic)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+spendguard = "spendguard.cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/amirthn6533/spendguard"
+"Bug Tracker" = "https://github.com/amirthn6533/spendguard/issues"
