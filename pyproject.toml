@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "spendguard"
+name = "spendguard-ai"
 version = "0.1.0"
 authors = [
   { name="Amir Tahani", email="amirthn653381@gmail.com" },

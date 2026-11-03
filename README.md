@@ -1,11 +1,12 @@
 # SpendGuard ⚡
 
+[![PyPI](https://img.shields.io/pypi/v/spendguard-ai.svg)](https://pypi.org/project/spendguard-ai/)
 [![CI](https://github.com/amirthn6533/spendguard/actions/workflows/ci.yml/badge.svg)](https://github.com/amirthn6533/spendguard/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://pypi.org/project/spendguard/)
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://pypi.org/project/spendguard-ai/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![Zero-Dependency](https://img.shields.io/badge/Dependencies-Zero-brightgreen.svg)](#)
 
-**SpendGuard** is a zero-dependency, microsecond-latency budget guard, floating-point spend tracker, and latency circuit breaker for modern LLM applications (OpenAI, LiteLLM, Anthropic, LangChain, DeepSeek).
+**SpendGuard** (`spendguard-ai`) is a zero-dependency, microsecond-latency budget guard, floating-point spend tracker, and latency circuit breaker for modern LLM applications (OpenAI, LiteLLM, Anthropic, LangChain, DeepSeek).
 
 ---
 
@@ -26,7 +27,7 @@ Furthermore, runaway agent loops and slow provider endpoints can drain budgets o
 ## 📦 Installation
 
 ```bash
-pip install spendguard
+pip install spendguard-ai
 ```
 
 *(or install from source)*
